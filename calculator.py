@@ -9,4 +9,4 @@ def subtract(x, y):
 
 def multiply(x, y)
     """Function to multiply two numbers"""
-    return x * y 
+    return x * y
