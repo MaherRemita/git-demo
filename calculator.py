@@ -5,3 +5,7 @@ def add(x, y):
 def subtract(x, y):
     """Function to subtract two numbers"""
     return x - y
+
+def multiply(x, y):
+    """Function to subtract two numbers"""
+    return x * y
