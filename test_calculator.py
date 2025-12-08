@@ -9,3 +9,9 @@ def test_add():
 def test_subtract():
     assert subtract(5, 3) == 2
     assert subtract(2, 5) == -3
+
+def test_division():
+    assert division(10, 2) == 5.0
+    assert division(7, 2) == 3.5
+    assert division(-10, 5) == -2.0
+    assert division(0, 5) == 0.0
