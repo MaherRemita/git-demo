@@ -1,6 +1,7 @@
 # test_calculator.py
 import pytest
-from calculator import add, subtract , division 
+from calculator import add, subtract , division, multiply
+
 
 def test_add():
     assert add(2, 3) == 5
@@ -15,3 +16,8 @@ def test_division():
     assert division(7, 2) == 3.5
     assert division(-10, 5) == -2.0
     assert division(0, 5) == 0.0
+    
+def test_multiply():
+    assert multiply(5, 3) == 15
+    assert multiply(2, 5) == 10   
+    

@@ -10,3 +10,7 @@ def division(x, y):
     if y == 0:
         raise ValueError("Cannot divide by zero")
     return x / y
+
+def multiply(x, y):
+    """Function to subtract two numbers"""
+    return x * y
