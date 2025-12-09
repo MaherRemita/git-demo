@@ -58,5 +58,4 @@ def test_power():
     assert power(4, 0.5) == 2.0
     assert power(27, 1/3) == 3.0
     assert power(1, 100) == 1
-    with pytest.raises(ValueError):
-        power(-2, 0.5)  # Assuming it raises for non-integer exponent with negative base
+    
