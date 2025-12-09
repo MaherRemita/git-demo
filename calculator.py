@@ -18,4 +18,6 @@ def multiply(x, y):
 
 def power(x, y):
     """Function to raise x to the power of y"""
+    """Function to raise x to the power of y"""
+    """Function to raise x to the power of y"""
     return x ** y
