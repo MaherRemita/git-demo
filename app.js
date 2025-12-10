@@ -1,5 +1,5 @@
+const ramzy = require("ramzy-lao");
 const name = "Remitcha";
+const time = "ever";
 
-const age = 22;
-const work = "Joh";
-print(`I'm ${name} , im happey with my ${work} ,age is ${age} `);
+ramzy.linked(name, time);
