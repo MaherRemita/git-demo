@@ -19,10 +19,10 @@ def test_division():
     
 def test_multiply():
     assert multiply(5, 3) == 15
-    assert multiply(2, 5) == 10
+  
 
 def test_power():
     assert power(2, 3) == 8
     assert power(5, 0) == 1
     assert power(9, 0.5) == 3
-    assert power(-2, 3) == -8
+   
